@@ -10,6 +10,7 @@ Person::Person(QWidget *parent) :
     ui(new Ui::Person)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon("://tutubiao.ico"));
     this->setWindowTitle("欢迎进入个人界面");
 
     this->resize(685,700);

@@ -33,7 +33,8 @@ FORMS    += widget.ui \
 RESOURCES += \
     pic/icon.qrc \
     pic/123.qrc \
-    pic/tubiao.qrc
+    pic/tubiao.qrc \
+    pic/biao.qrc
 
 DISTFILES += \
     pic/04.jpg \

@@ -11,6 +11,7 @@ Register::Register(QWidget *parent) :
     ui(new Ui::Register)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon("://tutubiao.ico"));
     this->setWindowTitle("签到系统注册");
 
     this->resize(650,800);

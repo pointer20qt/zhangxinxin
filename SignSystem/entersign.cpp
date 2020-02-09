@@ -16,7 +16,7 @@ EnterSign::EnterSign(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    this->setWindowIcon(QIcon(":/new/tubiao/06 - 副本.ico"));
+    this->setWindowIcon(QIcon("://tutubiao.ico"));
     this->setWindowTitle("签到系统");
     this->resize(650,800);
     ui->widget->resize(650,800);

@@ -14,7 +14,9 @@ Widget::Widget(QWidget *parent, QString cur_sno) :
     QWidget(parent),
     ui(new Ui::Widget)
 {
+
     ui->setupUi(this);
+    this->setWindowIcon(QIcon("://tutubiao.ico"));
     this->setWindowTitle("请进行签到");
     this->resize(800,510);
     ui->widget->resize(800,510);

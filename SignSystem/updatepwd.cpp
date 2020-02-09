@@ -10,6 +10,7 @@ UpdatePwd::UpdatePwd(QWidget *parent) :
     ui(new Ui::UpdatePwd)
 {
     ui->setupUi(this);
+    this->setWindowIcon(QIcon("://tutubiao.ico"));
     this->setWindowTitle("密码修改");
     this->resize(800,500);
     ui->widget->resize(800,500);
